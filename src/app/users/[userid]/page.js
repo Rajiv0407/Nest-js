@@ -1,5 +1,5 @@
 async function getUser(id){
-    let data = await fetch(`http://localhost:3001/api/users/${id}`);
+    let data = await fetch(`http://localhost:3000/api/users/${id}`);
      data= await data.json();
      return data;
 }
